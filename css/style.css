@@ -11,3 +11,7 @@ body {
     height: 75px;
     width: 50px;
 }
+
+.cards {
+    background: #eeeeee;
+}
