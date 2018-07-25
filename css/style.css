@@ -1,17 +1,7 @@
-body {
-    height: 10vh;
-}
+body {height: 10vh;}
 
-.p-0 {
-    padding: 0;
-}
+.p-0 {padding: 0;}
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    height: 75px;
-    width: 50px;
-}
+.carousel-control-prev-icon, .carousel-control-next-icon {height: 75px;width: 50px;}
 
-.cards {
-    background: #eeeeee;
-}
+.cards {background: #eeeeee;}
