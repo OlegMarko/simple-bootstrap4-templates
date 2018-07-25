@@ -33,7 +33,7 @@
                 <a href="#" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link open-modal" data-toggle="modal" data-target="#exampleModal">About Us</a>
+                <a href="#" class="nav-link open-modal" data-toggle="modal" data-target="#exampleModal">LogIn</a>
             </li>
             <li class="nav-item">
                 <a href="#" class="nav-link disabled">Contacts</a>
@@ -130,23 +130,35 @@
     <div class="modal-dialog modal-md" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Lorem ipsum dolor.</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Auth ...</h5>
                 <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam architecto atque deleniti, dicta dolore earum eligendi error eum eveniet inventore ipsam minus odit officiis quae similique sint totam veritatis. Ab aperiam beatae eaque eligendi harum, laborum necessitatibus, quae quasi quibusdam quisquam, recusandae vitae voluptas voluptate!</p>
                 <div class="container-fluid">
-                    <div class="row text-center">
-                        <div class="col-4">.col-4</div>
-                        <div class="col-8">.col-8</div>
-                    </div>
+                    <form id="login-form">
+                        <div class="form-group">
+                            <label for="emailInput">Email:</label>
+                            <input type="email" class="form-control form-control-lg" id="emailInput"
+                                   aria-describedby="emailHelp" placeholder="Email" required>
+                            <small id="emailHelp" class="form-text text-muted">Enter your email.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="passwordInput">Password:</label>
+                            <input type="password" id="passwordInput" class="form-control form-control-sm"
+                                   aria-describedby="passwordHelp" placeholder="Password" required>
+                            <small id="passwordHelp" class="form-text text-muted">Enter your password.</small>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input">
+                                Remember Me
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">LogIn</button>
+                    </form>
                 </div>
-            </div>
-            <div class="modal-footer">
-                <button class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button class="btn btn-primary">Seve</button>
             </div>
         </div>
     </div>
